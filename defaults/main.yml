@@ -2,7 +2,8 @@
 newrelic_loglevel: info
 newrelic_logfile: /var/log/newrelic/nrsysmond.log
 newrelic_proxy: False
-newrelic_ssl: "false"
+newrelic_ssl: "true"
+newrelic_hostname: "{{ansible_hostname}}"
 newrelic_ssl_ca_bundle: False
 newrelic_ssl_ca_path: False
 newrelic_pidfile: /var/run/newrelic/nrsysmond.pid
